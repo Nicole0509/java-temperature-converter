@@ -8,7 +8,7 @@ public class Main {
         System.out.println("Temperature Converter");
         System.out.println("Temperature in celcius: " + celcius +" C");
 
-        float fahrenheit =  (float)(celcius * 9/5) + 32;
+        float fahrenheit =  (celcius * 9/5) + 32;
 
         System.out.println("Temperature in fahrenheit: " + fahrenheit +" F");
 
