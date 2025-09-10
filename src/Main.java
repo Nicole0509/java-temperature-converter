@@ -3,14 +3,17 @@
 public class Main {
     public static void main(String[] args) {
 
-        float celcius = (float) 21.7;
+        double celsius =  -273.15;
 
         System.out.println("Temperature Converter");
-        System.out.println("Temperature in celcius: " + celcius +" C");
 
-        float fahrenheit =  (celcius * 9/5) + 32;
+        double fahrenheit =  (celsius * 9/5) + 32;
 
-        System.out.println("Temperature in fahrenheit: " + fahrenheit +" F");
+        if(celsius < 0){
+            System.out.println("Attention!! The temperature is below zero...");
+        }
+
+        System.out.println(celsius + " °C is " + fahrenheit +" °F");
 
 
     }
